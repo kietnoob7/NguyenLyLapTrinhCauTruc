@@ -25,14 +25,17 @@ int KT_SNT(int x)
 void XuatSNT_N(int n)
 {
 	int dem = 0;
-	for (int i = 1; i <= n; i++)
+	for (int i = 1; ; i++)
 	{
 		if (KT_SNT(i))
 		{
 			dem++;
+			
 			cout << i << "\t";
 			if (dem % 5 == 0)
 				cout << "\n";
+			if (dem == n)
+				break;	
 		}
 			
 	}

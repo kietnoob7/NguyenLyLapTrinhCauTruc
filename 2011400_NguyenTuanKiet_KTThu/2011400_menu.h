@@ -9,7 +9,7 @@ void XuatMenu()
 {
 	cout << "\n====== CHON CHUC NANG ======";
 	cout << "\n0. Thoat khoi chuong trinh";
-	cout << "\n1. So nguyen to dau tien";
+	cout << "\n1. Xuat n so nguyen to dau tien";
 	cout << "\n2. Dem so luong chu so cua n";
 	cout << "\n3. Xac dinh chu so cuoi cung trong n";
 	cout << "\n4. Tinh tich cac chu so trong n";
@@ -41,7 +41,7 @@ void XuLyMenu(int menu, int n)
 		break;
 	case 1:
 		system("CLS");
-		cout << "\n1. So nguyen to \n";
+		cout << "\n1. Xuat" << n << " so nguyen to dau tien\n";
 		XuatSNT_N(n);
 		break;
 	case 2:
